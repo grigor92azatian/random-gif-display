@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, .formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: pink;
+}
+
+label, input{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.newGIFButton, .searchButton{
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    background-color: lightblue;
+    color: blue;
+    border-radius: 5px;
+}
+
+img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
