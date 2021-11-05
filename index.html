@@ -10,11 +10,13 @@
 <body>
     <form class="formContainer">
         <label for="gifSearch" class="inputFieldLabel">Search GIFs</label>
-        <input type="text" id="gifSearch" name="gifSearch" class="inputField">
-        <button class="searchButton">Search</button>
+        <input autocomplete="off" type="text" id="gifSearch" name="gifSearch" class="inputField">
+        <button type="button" class="searchButton myButton">Search</button>
     </form>
-    <img src="#" alt="random-gif">
-    <button class="newGIFButton">New GIF</button>
+    <div class="imgContainer">
+        <img src="#" alt="random-gif">
+    </div>
+    <button class="newGIFButton myButton">New GIF</button>
     <script src="script.js"></script>
 </body>
 </html>
